@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body><div class="container">
+    <header>
+      <h1 id="title">CHESS COMPETITION SURVEY FORM </h1>
+      <p id="description"> Thank you for taking the time to help us  to improve Participators Experience</p>
+    </header>
+      <form id="survey-form">
+        <label for="name" id="name-label">Name 
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Enter your name"
+            required
+          /><br>
+           <label id="email-label" for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+                        placeholder="Enter your Email"
+            required
+          /><br>
+          <label id="number-label" for="number"
+            >Age</label
+          >
+          <input
+            type="number"
+            name="age"
+            id="number"
+            min="10"
+            max="99"
+            placeholder="Age"
+          /><br>
+          <label>Which position achieved  in chess competition in these year?</label>
+          <select id="dropdown" name="role"  required>
+            <option disabled selected value>Select current position</option>
+            <option value="player">player</option>
+            <option value="district">district</option>
+            <option value="state">state</option>
+            <option value="national">national</option>
+            <option value="no">no</option>
+          </select><br>
+          <label>Would you recommend chess competition to a friend?</label>
+          <label>
+            <input
+              name="user-recommend"
+              value="definitely"
+              type="radio"
+              class="input-radio"
+              checked
+            />Definitely</label
+          >
+          <label>
+            <input
+              name="user-recommend"
+              value="maybe"
+              type="radio"
+              class="input-radio"
+            />Maybe</label
+          >
+
+          <label
+            ><input
+              name="user-recommend"
+              value="not-sure"
+              type="radio"
+              class="input-radio"
+            />Not sure</label
+          > </br> 
+
+<label>
+          Who is your all time famous chess player?
+                      </label>
+
+          <label
+            ><input
+              name="prefer"
+              value="Vishwanathan Anand"
+              type="checkbox"
+              class="input-checkbox"
+            />Vishwanathan Anand</label
+          >
+          <label>
+            <input
+              name="prefer"
+              value="Magnus Carlsen"
+              type="checkbox"
+              class="input-checkbox"
+            />Magnus Carlsen</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="Anatoly Karpov"
+              type="checkbox"
+              class="input-checkbox"
+            />Anatoly Karpov</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="Wesley So"
+              type="checkbox"
+              class="input-checkbox"
+            />Wesley so</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="Ding Liren"
+              type="checkbox"
+              class="input-checkbox"
+            />Ding Liren</label
+          >
+          <label
+            ><input 
+              name="prefer"
+               value="Anish Giri" type="checkbox"
+              class="input-checkbox"
+            />Anish Giri </label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="others"
+              type="checkbox"
+              class="input-checkbox"
+            />others</label
+          ><br>
+           <label>Playing experience or User suggestions?</label>
+          <textarea
+            id="comments"
+            class="input-textarea"
+            name="comment"
+            placeholder="Enter your comment here..."
+          ></textarea>
+           <button type="submit" id="submit" class="submit-button">
+            Submit
+          </button>
+          </form>
+    </div>     
+    </body></html>
